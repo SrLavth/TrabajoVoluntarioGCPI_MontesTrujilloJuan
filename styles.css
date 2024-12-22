@@ -5,10 +5,15 @@ body {
     background-color: #f4f4f4;
 }
 
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
 header {
     background-color: #333;
     color: #fff;
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: center;
 }
 
@@ -23,26 +28,32 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    font-weight: bold;
 }
 
 main {
-    padding: 20px;
+    padding: 20px 0;
 }
 
 #hero {
     background-color: #e2e2e2;
-    padding: 20px;
+    padding: 40px 0;
     text-align: center;
 }
 
 #hero h2 {
     margin-top: 0;
+    font-size: 2em;
+}
+
+#hero p {
+    font-size: 1.2em;
 }
 
 #hero form {
@@ -54,6 +65,8 @@ main {
     width: 80%;
     max-width: 300px;
     margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 #hero button {
@@ -61,15 +74,49 @@ main {
     background-color: #333;
     color: #fff;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
 }
 
-#about {
+#about, #services {
     background-color: #fff;
-    padding: 20px;
+    padding: 40px 0;
     margin-top: 20px;
 }
 
-#about h2 {
+#about h2, #services h2 {
     margin-top: 0;
+    font-size: 2em;
+    text-align: center;
+}
+
+#about p, #services ul {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#services ul {
+    list-style: none;
+    padding: 0;
+}
+
+#services ul li {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #fffffffb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer p {
+    margin: 10px 0 0;
 }
